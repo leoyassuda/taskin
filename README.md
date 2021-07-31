@@ -6,54 +6,54 @@ A project to use some stacks and provide a task managment API
 
 **Built-in:**
 
-* [NestJS](https://nestjs.com/)
-* [Rabbit](https://www.rabbitmq.com/)
+* [NodeJS](https://nodejs.org/)
+* [ProtoBuffer](https://developers.google.com/protocol-buffers/)
+* [GRPC](https://grpc.io/)
 * [Docker](https://www.docker.com/)
-* [Yarn](https://yarnpkg.com/)
-* [Swagger-OpenApi](https://swagger.io/)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/leoyassuda/docuweb-api.git
+  git clone https://github.com/leoyassuda/taskin.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd docuweb-api
+  cd taskin
 ```
 
-Install dependencies
+Run using docker
 
 ```bash
-  yarn install
+  docker-compose up --build
 ```
 
-Start rabbitMQ
+Default port is 8080
+
+To run a local test, execute using node the test client file.
 
 ```bash
-  docker-compose up
+  node testClient.js
 ```
 
-Start the server
+Result sample:
 
-```bash
-  yarn start:dev
-```
-
-Default port is 3000
+* In terminal:
+* ![Result test client - create user](docs/result-test-grpc-create-user.png "image result test client using grpc and a node file")
+* In mongodb:
+* ![Result test client - create user](docs/mongo-result-insert-user.png "image result test client using grpc and a node file")
 
 ## Run Tests
 
-TODO: Not implemented yet
+> TODO: Not implemented yet
 
 ## API Documentation
 
-* Open in browser - [swagger-ui](http://localhosr:3000/api)
+> TODO: Not implemented yet
 
 ### Authors
 
-* **Leo Yassuda** - *Initial work* - [Docuweb-API](https://github.com/leoyassuda/docuweb-api) - Portfolio [leoyas.com](https://leoyas.com)
+* **Leo Yassuda** - *Initial work* - Portfolio [leoyas.com](https://leoyas.com)
