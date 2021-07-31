@@ -13,7 +13,7 @@ let api = null;
 async function connectDB() {
     try {
         await dbClient.connect();
-        let db = await dbClient.db(process.env.DB_NAME);
+        let db = dbClient.db(process.env.DB_NAME);
         db.command({ ping: 1 });
         console.log('MongoDB connected!');
 
