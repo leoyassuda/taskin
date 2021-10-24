@@ -1,5 +1,5 @@
 {
-  "name": "userservice",
+  "name": "user-service",
   "version": "1.0.0",
   "description": "User auth and management service",
   "main": "index.js",
@@ -7,15 +7,15 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "leoyassuda",
+  "author": "Leo Yassuda",
   "license": "MIT",
   "dependencies": {
-    "@grpc/grpc-js": "^1.3.6",
-    "@grpc/proto-loader": "^0.6.4",
+    "@grpc/grpc-js": "^1.4.1",
+    "@grpc/proto-loader": "^0.6.6",
     "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
-    "google-protobuf": "^3.17.3",
+    "google-protobuf": "^3.19.0",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^4.0.1"
+    "mongodb": "^4.1.3"
   }
 }

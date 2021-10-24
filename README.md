@@ -1,15 +1,15 @@
 # Taskin-Project
 
-A project to use some stacks and provide a task managment API
+A project to use some stacks and provide a task management API
 
 ## Tech Stack
 
 **Built-in:**
 
-* [NodeJS](https://nodejs.org/)
-* [ProtoBuffer](https://developers.google.com/protocol-buffers/)
-* [GRPC](https://grpc.io/)
-* [Docker](https://www.docker.com/)
+- [NodeJS](https://nodejs.org/)
+- [ProtoBuffer](https://developers.google.com/protocol-buffers/)
+- [GRPC](https://grpc.io/)
+- [Docker](https://www.docker.com/)
 
 ## Run Locally
 
@@ -41,10 +41,10 @@ To run a local test, execute using node the test client file.
 
 Result sample:
 
-* In terminal:
-* ![Result test client - create user](docs/result-test-grpc-create-user.png "image result test client using grpc and a node file")
-* In mongodb:
-* ![Result test client - create user](docs/mongo-result-insert-user.png "image result test client using grpc and a node file")
+- In terminal:
+- ![Result test client - create user](docs/result-test-grpc-create-user.png 'image result test client using grpc and a node file')
+- In mongodb:
+- ![Result test client - create user](docs/mongo-result-insert-user.png 'image result test client using grpc and a node file')
 
 ## Run Tests
 
@@ -56,4 +56,4 @@ Result sample:
 
 ### Authors
 
-* **Leo Yassuda** - *Initial work* - Portfolio [leoyas.com](https://leoyas.com)
+- **Leo Yassuda** - _Initial work_ - Portfolio [leoyas.com](https://leoyas.com)
